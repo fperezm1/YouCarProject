@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.you_car"
+4    android:versionCode="4001"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:8:5-66
+17-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCES_FINE_LOCATION" />
+18-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:9:5-77
+18-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:9:22-75
+19    <uses-permission android:name="android.permission.ACCES_COARSE_LOCATION" />
+19-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:10:5-79
+19-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:10:22-77
+20    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+20-->[:geolocator] Z:\Users\feder\Escritorio\you_car\build\geolocator\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+20-->[:geolocator] Z:\Users\feder\Escritorio\you_car\build\geolocator\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+21    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:5-79
+22-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:13:22-76
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+27
+28    <application
+28-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:14:5-37:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:15:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.1.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a528b13ac93e64cafa3d0480e2c93207\core-1.1.0\AndroidManifest.xml:24:18-86
+31        android:icon="@mipmap/ic_launcher"
+31-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:17:9-43
+32        android:label="you_car" >
+32-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:16:9-32
+33        <activity
+33-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:18:9-29:20
+34            android:name="com.example.you_car.MainActivity"
+34-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:19:13-41
+35            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+35-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:22:13-163
+36            android:hardwareAccelerated="true"
+36-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:23:13-47
+37            android:launchMode="singleTop"
+37-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:20:13-43
+38            android:theme="@style/LaunchTheme"
+38-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:21:13-47
+39            android:windowSoftInputMode="adjustResize" >
+39-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:24:13-55
+40            <intent-filter>
+40-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:25:13-28:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:26:17-68
+41-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:27:17-76
+43-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:27:27-74
+44            </intent-filter>
+45        </activity>
+46        <!--
+47             Don't delete the meta-data below.
+48             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+49        -->
+50        <meta-data
+50-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:32:9-34:33
+51            android:name="flutterEmbedding"
+51-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:33:13-44
+52            android:value="2" />
+52-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:34:13-30
+53        <meta-data
+53-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:35:9-36:73
+54            android:name="com.google.android.geo.API_KEY"
+54-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:35:20-65
+55            android:value="AIzaSyAHZSuANXTgzzhj0SMFwtFUt_yRIw-HUqk" />
+55-->Z:\Users\feder\Escritorio\you_car\android\app\src\main\AndroidManifest.xml:36:16-71
+56
+57        <service
+57-->[:cloud_firestore] Z:\Users\feder\Escritorio\you_car\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+58            android:name="com.google.firebase.components.ComponentDiscoveryService"
+58-->[:cloud_firestore] Z:\Users\feder\Escritorio\you_car\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+59            android:directBootAware="true"
+59-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+60            android:exported="false" >
+60-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+61            <meta-data
+61-->[:cloud_firestore] Z:\Users\feder\Escritorio\you_car\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+62-->[:cloud_firestore] Z:\Users\feder\Escritorio\you_car\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-133
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:cloud_firestore] Z:\Users\feder\Escritorio\you_car\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[:firebase_core] Z:\Users\feder\Escritorio\you_car\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+65-->[:firebase_core] Z:\Users\feder\Escritorio\you_car\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_core] Z:\Users\feder\Escritorio\you_car\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+68                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+68-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\19fe5800d88531061f53c20f61932deb\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+70        </service> <!-- Needs to be explicitly declared on P+ -->
+71        <uses-library
+71-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+72            android:name="org.apache.http.legacy"
+72-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+73            android:required="false" />
+73-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\6b9b7fc1ad481537ed0a66d62976ec46\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+74
+75        <activity
+75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+77            android:exported="false"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\5ac9ad6f13ea0190a3570ea7a43d9f59\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+79
+80        <provider
+80-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+81            android:name="com.google.firebase.provider.FirebaseInitProvider"
+81-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+82            android:authorities="com.example.you_car.firebaseinitprovider"
+82-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+83            android:exported="false"
+83-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+84            android:initOrder="100" />
+84-->[com.google.firebase:firebase-common:19.3.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\a48ecab43152eb769b86ad6d3a4ad288\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+85
+86        <meta-data
+86-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\153635c79cf8a7234d6e6766c76f3de4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+87            android:name="com.google.android.gms.version"
+87-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\153635c79cf8a7234d6e6766c76f3de4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+88            android:value="@integer/google_play_services_version" />
+88-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\feder\.gradle\caches\transforms-2\files-2.1\153635c79cf8a7234d6e6766c76f3de4\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+89    </application>
+90
+91</manifest>

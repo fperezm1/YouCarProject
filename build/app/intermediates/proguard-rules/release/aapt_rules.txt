@@ -1,0 +1,12 @@
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:28
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:33
+-keep class com.example.you_car.MainActivity { <init>(); }
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:75
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:57
+-keep class com.google.firebase.components.ComponentDiscoveryService { <init>(); }
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:80
+-keep class com.google.firebase.provider.FirebaseInitProvider { <init>(); }
+# Referenced at Z:\Users\feder\Escritorio\you_car\build\app\intermediates\merged_manifests\release\arm64-v8a\AndroidManifest.xml:28
+-keep class io.flutter.app.FlutterApplication { <init>(); }

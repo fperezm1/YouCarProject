@@ -1,0 +1,4 @@
+#Fri Mar 06 14:30:11 COT 2020
+base.0=Z\:\\Users\\feder\\Escritorio\\you_car\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
